@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Image Gallery & Slideshow</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Image Gallery & Slideshow</h1>
+
+<p class="subtitle">
+Explore beautiful technology images with interactive gallery and automatic slideshow.
+</p>
+
+<!-- Main Image -->
+
+<div class="main-image-box">
+
+<img id="mainImage" src="img1.jpg" alt="Gallery Image">
+
+</div>
+
+<!-- Thumbnails -->
+
+<div class="gallery">
+
+<img src="img1.jpg" onclick="changeImage(this.src)" alt="">
+<img src="img2.jpg" onclick="changeImage(this.src)" alt="">
+<img src="img3.jpg" onclick="changeImage(this.src)" alt="">
+<img src="img4.jpg" onclick="changeImage(this.src)" alt="">
+<img src="img5.jpg" onclick="changeImage(this.src)" alt="">
+
+</div>
+
+<!-- Slideshow -->
+
+<h2>Automatic Slideshow</h2>
+
+<div class="slideshow">
+
+<img id="slideImage" src="img1.jpg" alt="Slideshow">
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Jessica Rodrigues | Cognifyz Level 3 Task 1</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
